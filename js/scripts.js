@@ -10,16 +10,23 @@
 // Test: "It should return an array with a 0 if the number 0 is inputted"
 // Expect: (userInput(0).toEqual([0]);
 
-// What I need to do: Take in an integer, break it down so each digit is is one index of an array, loop through the array of integers to look for 1's, 2's, and 3's and then replace those with the correspionding strings.
+// What I need to do: Take in an integer, break it down so each digit is one index of an array, loop through the array of integers to look for 1's, 2's, and 3's and then replace those with the correspionding strings.
 
 // Need to use array.split method
 
-function userInput(input) {
-  let inputArray = []
-  let outputArray = []
-  let outputString = []
+function userInput(number) {
+  return 0;
+}
 
-  let outputString = inputArray.split (" ");
+userInput(0)
+
+
+// function userInput(input) {
+//   let inputArray = []
+//   let outputArray = []
+//   let outputString = []
+
+//   let outputString = inputArray.split (" ");
 
 }
 // userInput(result);
