@@ -7,14 +7,22 @@
 // Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
 // // Describe: userInput()
-// Test: "It should return 0 if 0 is inputted."
-// Expect: (userInput(0).toEqual(0);
+// Test: "It should return an array with a 0 if the number 0 is inputted"
+// Expect: (userInput(0).toEqual([0]);
 
 function userInput(input) {
-  return 0;
-}
-userInput(0);
+  let inputArray = []
+  let outputArray = []
 
-console.log(0)
+}
+userInput(result);
+
+console.log("The number is = " + result)
 
 // UI Logic
+$(document).ready(function() {
+  $("$formOne").submit(function(event) {
+    event.preventDefault()
+
+  });
+});
