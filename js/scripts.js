@@ -14,7 +14,11 @@ function beepBoop(number) {
       numArray.push("Won't you be my neighbor?");
     } else if (numString.includes("2")) {
       numArray.push("Boop!");
-    } else {
+    } else if (numString.includes("1"))
+    {
+      numArray.push("Beep!");
+    }
+    else {
       numArray.push(" " + numString)
     }
   };

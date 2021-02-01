@@ -40,6 +40,10 @@ Test: "If 2 is input, all numbers containing 2 will be replaced with "Boop!""
 
 Expect: beepBoop(2).toEqual("Boop!")
 
+Test: "If 1 is input, all numbers containing 1 will be replaced with "Beep!""
+
+Expect: beepBoop(1).toEqual("Beep!")
+
 ## Setup/Installation Requirements
 
 * Clone the repo to your Desktop
