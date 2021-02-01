@@ -26,10 +26,13 @@ Numbers that contain a 3: all digits are replaced (all digits) with "Won't you b
 
 // Test: "It should return 0 if the number 0 is inputted"
 
-// Expect: (userInput(0).toEqual(0);
+// Expect: (beepBoop(0).toEqual(0);
 
-// Test: "It should return "Beep!" for any number containing 1"
-//Expect: (userInput(1).toEqual("Beep!"))
+// Test: "It should return a string of numbers from 0 to the number inputted by the user"
+
+//Expect:(Beepboop(5).toEqual([0,1,2,3,4,5]))
+
+
 
 ## Setup/Installation Requirements
 
