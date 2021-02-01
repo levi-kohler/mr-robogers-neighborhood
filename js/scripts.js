@@ -14,7 +14,6 @@ function beepBoop(number) {
       numArray.push("Won't you be my neighbor?");
     } else {
       numArray.push(" " + numString)
-      // console.log(numArray)
     }
   };
   return numArray

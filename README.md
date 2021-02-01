@@ -36,6 +36,10 @@ Test: "If 3 is input, all numbers containing 3 will be replaced with "Won't you 
 
 Expect: beepBoop(3).toEqual("Won't you be my neighbor?")
 
+Test: "If 2 is input, all numbers containing 2 will be replaced with "Boop!""
+
+Expect: beepBoop(2).toEqual("Boop!")
+
 ## Setup/Installation Requirements
 
 * Clone the repo to your Desktop
