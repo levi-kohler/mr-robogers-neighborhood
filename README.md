@@ -22,17 +22,19 @@ Numbers that contain a 3: all digits are replaced (all digits) with "Won't you b
 
 ## Specs
 
-// // Describe: beepBoop()
+Describe: beepBoop()
 
-// Test: "It should return 0 if the number 0 is inputted"
+Test: "It should return 0 if the number 0 is inputted"
 
-// Expect: (beepBoop(0).toEqual(0);
+Expect: (beepBoop(0).toEqual(0);
 
-// Test: "It should return a string of numbers from 0 to the number inputted by the user"
+Test: "It should return a string of numbers from 0 to the number inputted by the user"
 
-//Expect:(Beepboop(5).toEqual([0,1,2,3,4,5]))
+Expect:(Beepboop(5).toEqual([0,1,2,3,4,5]))
 
+Test: "If 3 is input, all numbers containing 3 will be replaced with "Won't you be my neighbor?""
 
+Expect: beepBoop(3).toEqual("Won't you be my neighbor?")
 
 ## Setup/Installation Requirements
 
