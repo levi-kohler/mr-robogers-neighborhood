@@ -1,11 +1,4 @@
-// Create a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
-
-// Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-
-// Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-
-// Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
-
+//Business Logic
 function beepBoop(number) {
   let numArray = [];
   for (let i = 0; i <= number; i++) {
@@ -14,8 +7,7 @@ function beepBoop(number) {
       numArray.push("Won't you be my neighbor?");
     } else if (numString.includes("2")) {
       numArray.push("Boop!");
-    } else if (numString.includes("1"))
-    {
+    } else if (numString.includes("1")) {
       numArray.push("Beep!");
     }
     else {

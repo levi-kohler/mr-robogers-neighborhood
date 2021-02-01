@@ -16,9 +16,13 @@
 
 This application takes a number from the user and returns a range of numbers from 0 to the inputed number, with 3 exceptions:
 
-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+Numbers that contain a 1: all digits are replaced with "Beep!"
+
+Numbers that contain a 2: all digits are replaced with "Boop!"
+
+Numbers that contain a 3: all digits are replaced with "Won't you be my neighbor?"
+
+These exceptions are written from least to most important. The first exception applies unless the second exception does, and the same with the second and third.
 
 ## Specs
 
@@ -53,7 +57,7 @@ Expect: beepBoop(1).toEqual("Beep!")
 
 ## Known Bugs
 
-* Project is incomplete, there are many bugs
+* No known bugs
 
 ## License
 
