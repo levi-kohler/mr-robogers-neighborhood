@@ -7,14 +7,16 @@
 // Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
 function beepBoop(number) {
-  let numberArray = []
-  for(let i = 0; i <= number; i++) {
-    let numberString = i.toString();
-    numberArray.push;
-    console.log(numberArray)
-
-    return (numberArray + numberString)
-  }
+  let numArray = [];
+  for (let i = 0; i <= number; i++) {
+    let numString = i.toString();
+    if (numString.includes("3")) {
+      numArray.push("Won't you be my neighbor?");
+    } else {
+      numArray.push(" " + numString)
+    }
+  };
+  return beepBoop
 };
 
 
@@ -24,7 +26,7 @@ $(document).ready(function() {
     e.preventDefault()
 
     let number = ($("input#inputNumber").val()); 
-    let returnString = beepBoop(number)
+    let returnString = beepBoop(number);
     $("#output").text(returnString);
   });
 });
