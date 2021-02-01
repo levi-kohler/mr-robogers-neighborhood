@@ -14,9 +14,10 @@ function beepBoop(number) {
       numArray.push("Won't you be my neighbor?");
     } else {
       numArray.push(" " + numString)
+      // console.log(numArray)
     }
   };
-  return beepBoop
+  return numArray
 };
 
 
@@ -25,7 +26,7 @@ $(document).ready(function() {
   $("#formOne").submit(function(e) {
     e.preventDefault()
 
-    let number = ($("input#inputNumber").val()); 
+    let number = ($("#inputNumber").val()); 
     let returnString = beepBoop(number);
     $("#output").text(returnString);
   });
