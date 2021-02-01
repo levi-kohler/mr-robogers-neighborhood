@@ -8,6 +8,7 @@
 
 * HTML
 * JavaScript
+* CSS
 * Jquery
 * Markdown
 
@@ -18,6 +19,17 @@ This application takes a number from the user and returns a range of numbers fro
 Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+
+## Specs
+
+// // Describe: beepBoop()
+
+// Test: "It should return 0 if the number 0 is inputted"
+
+// Expect: (userInput(0).toEqual(0);
+
+// Test: "It should return "Beep!" for any number containing 1"
+//Expect: (userInput(1).toEqual("Beep!"))
 
 ## Setup/Installation Requirements
 
