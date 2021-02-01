@@ -12,6 +12,8 @@ function beepBoop(number) {
     let numString = i.toString();
     if (numString.includes("3")) {
       numArray.push("Won't you be my neighbor?");
+    } else if (numString.includes("2")) {
+      numArray.push("Boop!");
     } else {
       numArray.push(" " + numString)
     }
